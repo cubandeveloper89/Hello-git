@@ -1,0 +1,50 @@
+ls: similar a dir
+cd: para moverse
+pwd: nos dice donde estamos
+mkdir ¨nombre¨: crear carpeta
+
+nombre de carpeta con espacios	Camilo\ \&\ Annia
+
+code .: te abre VSC en la carpeta donde estes
+
+git config --global user.name "Camilo": crea el archivo de configuracion
+
+touch hellogit.py: crea el archivo hellogit.py
+
+git init: inicializa el proceso de control de versiones
+
+git branch -m (nombre): cambia el nombre de la rama al que desees, se escribe sin parentesis
+
+git status: muestra el estado y el historial.
+
+git add (archivo): añadir el fichero al stage para el commit.
+git add. : añade todos los ficheros que esten pendientes.
+
+git commit: guarda la "Fotografía" del código
+
+git checkout (nombre fichero): regresa al punto del commit
+git checkout .:ese punto significa que hace efecto a todos los archivos.
+
+git log: muestra un registro 
+git log --graph: lo muestra de otra manera
+git log --graph --pretty=oneline: otra manera mas
+git log --decorate --all --oneline: otra mas
+
+alias> acceso directo a algun comando muy largo
+git config --global alias.nombre "aqui va el comando": cuando ponga git nombre se ejecutara el comando entre comillas
+Ejemplo: git config --global alias.tree "log --decorate --all --oneline"
+
+GITIGNORE> se crea en la carpeta del proyecto y adentro se van a listar los archivos que quieras ignorar, luego lo tienes que add al stage y hacer un commit como a todo lo demás.
+
+git diff: te muestra los cambios en un archivo, o en varios, desde su ultimo commit
+
+git checkout (id del commit): nos mueve en las ramas a donde se hizo ese commit
+
+git reset --hard (id del commit): "elimina" los temas commit en adelante.
+git reset --hard (id que habíamos eliminado): volvemos a donde estábamos, lo recuperamos.
+
+git reflog: vuelve a mostrar todos los movimientos, incluyendo los "eliminados".
+
+**En este punto de la clase, mi head andaba por un lado y el master por otro, hice un git checkout master para volverlos a juntar y un git reset -- hard (ultimo id) para volver al ultimo commit**
+
+***1:26***
