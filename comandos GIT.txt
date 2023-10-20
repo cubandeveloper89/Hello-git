@@ -15,6 +15,8 @@ git init: inicializa el proceso de control de versiones
 
 git branch -m (nombre): cambia el nombre de la rama al que desees, se escribe sin parentesis
 
+git branch: muestra en una lista todas las ramas (branch)
+
 git status: muestra el estado y el historial.
 
 git add (archivo): añadir el fichero al stage para el commit.
@@ -47,4 +49,18 @@ git reflog: vuelve a mostrar todos los movimientos, incluyendo los "eliminados".
 
 **En este punto de la clase, mi head andaba por un lado y el master por otro, hice un git checkout master para volverlos a juntar y un git reset -- hard (ultimo id) para volver al ultimo commit**
 
+git stash: hace una salva del trabajo sin mergear
+
+git stash pop:
+git stash drop: deshace los cambios
+
+git merge (rama): mergea la rama especificada dentro de la actual
+
+git clone (url): clona el repositorio en la maquina
+
+git fetch: revisa el historial de cambios en la nube y compara con el local
+
+git pull: trae los cambios de la nube al local
+
+git push: sube los cambios realizados en el local, todo esto despues de resolver conflictos.
 ***1:26***
